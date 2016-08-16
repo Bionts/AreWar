@@ -14,6 +14,6 @@ int main(int argc,char* argv[])
 {
 Textsdl* bont=new Textsdl();
 
-bont::init("AreWar",0,0,480,800,SDL_WINDOW_SHOWN);	
+bool a= bont->init("AreWar",0,0,480,800,SDL_WINDOW_SHOWN);	
 	return 0;
 	}
