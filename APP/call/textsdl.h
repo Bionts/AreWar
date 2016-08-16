@@ -1,8 +1,9 @@
 #ifndef _TEXTSDL_
 #define _TEXTSDL_
-class textsdl{
+class Textsdl{
 	public:
 	char text1[250];
+	bool init();
 	void process();
 	void process2();
 	private:
