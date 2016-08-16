@@ -3,7 +3,8 @@
 class textsdl{
 	public:
 	char text1[250];
-	
+	void process();
+	void process2();
 	private:
 	std::string text2;
 	};
