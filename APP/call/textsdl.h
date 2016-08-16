@@ -1,7 +1,10 @@
 #ifndef _TEXTSDL_
 #define _TEXTSDL_
 class Textsdl{
+	
 	public:
+	Textsdl() {};
+	~Textsdl() {};
 	char text1[250];
 	bool init();
 	void process();
